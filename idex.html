@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src="slider.js"></script>
     <title>SlideShow</title>
 </head>
 
 <body>
+    <div class="slide">
+        <div class="img">
+            <img src="img/1.jpg" alt="" id="img">
+        </div>
+        <div class="btns">
+            <input type="button" value="Anterior" onclick="cambiarImagen(0)">
+            <input type="button" value="Iniciar" onclick="startSlide()">
+            <input type="button" value="Siguente" onclick="cambiarImagen(1)">
+        </div>
+    </div>
 
 </body>
 
