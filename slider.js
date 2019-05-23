@@ -32,7 +32,7 @@ function cambiarImagen(int) {
 function startSlide() {
     let btn = document.getElementById("start")
     if (btn.value == 'Iniciar') {
-        slid = setInterval(cambiarImagen, 2000)
+        slid = setInterval(cambiarImagen, 1000)
         btn.value = 'Parar'
     } else {
         clearInterval(slid)
